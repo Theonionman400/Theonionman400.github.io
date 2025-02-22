@@ -11,11 +11,16 @@
         <div>
             <nav class="navbar">
               <a href="index.html">home</a>
-              <a href="">now</a>
+              <a href="">fun facts</a>
               <a href="">bridges</a>
             </nav>
         </div>
         <div class="home-content-div">
+            <h2> bridges are the best</h2>
+            <li>did you know bridges are really cool?
+            </li>
+            <li>did you know that bridges are really helpful?
+            </li>
 
     </div>
     <footer>
