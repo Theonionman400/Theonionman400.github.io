@@ -3,13 +3,13 @@ font-family: 'Times New Roman';
 }
 
 .home-page{
-    background-color: rgba(48, 166, 52, 0.897); 
+    background-color: rgba(144, 236, 147, 0.897); 
 }
 .gallery-page{
-    background-color: rgb(7, 235, 102);
+    background-color: rgb(77, 202, 129);
 }
 .navbar{
-    background-color: rgb(26, 179, 24);
+    background-color: rgb(38, 107, 36);
     display:flex ;
     justify-content: space-evenly ;
     padding-top: 2%; 
