@@ -3,12 +3,13 @@ font-family: 'Times New Roman';
 }
 
 .home-page{
-    background-color: rgb(156, 186, 186);
-   
+    background-color: rgba(22, 232, 232, 0.897); 
 }
-
+.gallery-page{
+    background-color: aqua;
+}
 .navbar{
-    background-color: rgb(50, 130, 125);
+    background-color: rgb(238, 243, 243);
     display:flex ;
     justify-content: space-evenly ;
     padding-top: 2%; 
@@ -30,4 +31,10 @@ padding-bottom: 2%;
    }
    .facts-content-div-li{
     font-size: large;
+   }
+
+   .gallery-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
