@@ -3,13 +3,13 @@ font-family: 'Times New Roman';
 }
 
 .home-page{
-    background-color: rgba(22, 232, 232, 0.897); 
+    background-color: rgba(48, 166, 52, 0.897); 
 }
 .gallery-page{
-    background-color: aqua;
+    background-color: rgb(7, 235, 102);
 }
 .navbar{
-    background-color: rgb(238, 243, 243);
+    background-color: rgb(26, 179, 24);
     display:flex ;
     justify-content: space-evenly ;
     padding-top: 2%; 
@@ -37,4 +37,15 @@ padding-bottom: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
+   }
+
+   .gallery-content button{
+    border-radius: 40%;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(61, 61, 197);
+    font-weight: bold;
+    font-size: x-large;
+    height: 1%;
    }
