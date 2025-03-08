@@ -9,4 +9,14 @@ const imageElement = document.getElementById("gallery-image");
 const prevButton = document.getElementById("prev-btn");
 const nextButton = document.getElementById("next-btn");
 
-let currenImgIndex = 0;
+let currentImgIndex = 0;
+
+function updateImage() {
+    imageElement.src = imageGallery[currentImgIndex];
+}
+
+nextButton.addEventListener("click", function(){
+    
+})
+
+updateImage();
