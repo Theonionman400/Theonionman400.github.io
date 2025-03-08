@@ -16,11 +16,13 @@ function updateImage() {
 }
 
 nextButton.addEventListener("click", function(){
-    currentImgIndex = (currentImgIndex + 1) % imageGallery.length updateImage()
+    currentImgIndex = (currentImgIndex + 1) % imageGallery.length 
+    updateImage()
 });
 
 prevButton.addEventListener("click", function(){
-    currentImgIndex = (currentImgIndex - 1 + imageGallery.length) % imageGallery.length updateImage()
+    currentImgIndex = (currentImgIndex - 1 + imageGallery.length) % imageGallery.length 
+    updateImage()
 });
 
 updateImage();
